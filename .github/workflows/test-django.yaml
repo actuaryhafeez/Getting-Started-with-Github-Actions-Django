@@ -20,5 +20,5 @@ jobs:
          - name: Install requirements
            run: pip install -r ah_home/requirements.txt
          - name: Run Django Tests
-           run: python manage.py test
+           run: python ah_home/manage.py test
 
